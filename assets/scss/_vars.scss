@@ -1,5 +1,9 @@
-$primary-color: red;
-$text-color: #444;
-$link-color: #444;
-$open-sans: 'Open Sans';
-$default-font: $open-sans;
+@import "fonts";
+$primary-color: #5d2c65;
+$text-color: #232840;
+$link-color: #232840;
+$manrope: "Manrope";
+$manrope-bold: "Manrope-Bold";
+$indie-flower: "Indie Flower";
+$adamina: "Adamina";
+$default-font: $manrope;

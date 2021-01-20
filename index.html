@@ -5,32 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta charset="utf-8" />
     <title>Başlık</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" type="text/css" rel="stylesheet" />
     <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <div id="page-wrapper">
-        <div class="toggle-nav d-md-none"><i class="fas fa-bars"></i></div>
-        <nav class="mobile-nav">
-            <ul>
-                <li><a href="#">Level 1</a></li>
-                <li><a href="#">Level 1</a>
-                    <ul>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Level 1</a></li>
-                <li><a href="#">Level 1</a></li>
-                <li><a href="#">Level 1</a></li>
-                <li><a href="#">Level 1</a></li>
-            </ul>
-        </nav>
-
-    </div>
+    <header class="py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-12">
+                    <div class="logo">
+                        <a href="#"><img src="./assets/images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 d-none d-lg-flex flex-column">
+                    <div class="header-top d-flex justify-content-between w-100 pb-3">
+                        <div class="header-phone"><strong>Sorunuz mu var?</strong> 0 533 438 2802</div>
+                        <div class="header-social">
+                            <ul class="d-flex justify-content-between list-unstyled mb-0">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-bottom d-flex justify-content-between w-100 pt-3">
+                        <nav class="w-100">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li><a href="#">Theta Healing</a></li>
+                                <li><a href="#">Scio</a></li>
+                                <li><a href="#">Seminerler</a></li>
+                                <li><a href="#">Makaleler</a></li>
+                                <li><a href="#">Videolar</a></li>
+                            </ul>
+                        </nav>
+                        <a class="secondary-menu-toggle mx-3">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                        <a class="cart" href="#">
+                            <div class="cart-icon">
+                                <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.511 20.3481L17.3101 5.4868C17.2863 5.19362 17.0415 4.96774 16.7473 4.96774H13.5234V4.25306C13.5234 1.90791 11.6406 0 9.29536 0H9.22084C6.87569 0 4.94271 1.90791 4.94271 4.25306V4.96774H1.76885C1.4747 4.96774 1.22985 5.19362 1.20614 5.4868L0.00184175 20.39C-0.0108787 20.5472 0.0427127 20.7024 0.149594 20.8182C0.256476 20.9341 0.407014 21 0.564551 21H17.9516C17.9521 21 17.9527 21 17.9532 21C18.265 21 18.5177 20.7473 18.5177 20.4355C18.5177 20.4058 18.5154 20.3765 18.511 20.3481ZM6.07174 4.25306C6.07174 2.53046 7.49824 1.12903 9.22084 1.12903H9.29536C11.018 1.12903 12.3943 2.53046 12.3943 4.25306V4.96774H6.07174V4.25306Z" fill="#232840" />
+                                </svg>
+                                <i>3</i>
+                            </div>
+                            <strong>Sepetim</strong>
+                            <p class="mb-0">185.00 TL</p>
+                        </a>
+                        <a href="#" class="cta-button">
+                            Seans<br>Alın
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <img src="./assets/images/hero-bg.jpg" alt="">
+    </section>
     <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.mmenu.all.min.js"></script>
     <script type="text/javascript" src="assets/js/swiper.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
